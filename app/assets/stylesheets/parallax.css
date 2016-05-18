@@ -1,0 +1,110 @@
+.parallax {
+	line-height:27px;
+	font-size:15px;
+	color:#fff;
+}
+.parallax>div.link {
+	cursor:pointer
+}
+.parallax>div {
+	position:relative;
+	padding: 19.6% 0 23%;
+	color:#fff;
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+	text-align: center;
+}
+.parallax p {
+	position:relative;
+	display:block;
+	font-size: 17px;
+	line-height: 31px;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.parallax h2 {
+	font-size: 80px;
+	line-height: 124px;
+	color: #fff;
+	letter-spacing: 9px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+.parallax * + a {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 5px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 28px;
+}
+.parallax * + a:after {
+	content: '';
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	right: 0;
+	background: #fff;
+	height: 2px;
+	transition: all .3s ease;
+}
+.parallax a:hover {
+	color: #fff;
+}
+.parallax a:hover:after {
+	opacity: 0;
+}
+
+
+.ipad .parallax > div {
+    background-position: center center !important;
+    background-attachment: scroll !important;
+}
+.iphone .parallax > div {
+	background-position: center center !important;
+    background-attachment: scroll !important;
+}
+.android .parallax > div {
+	background-position: center center !important;
+    background-attachment: scroll !important;
+}
+.mobile .parallax > div { 
+	background-position: center center !important;
+    background-attachment: scroll !important;
+}
+
+@media (max-width: 991px) {
+	.parallax h2 {
+		font-size: 60px;
+		line-height: 80px;
+	}
+	.parallax p {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.parallax * + a {
+		margin-top: 15px;
+		font-size: 18px;
+		line-height: 26px;
+	}
+}	
+@media (max-width: 767px) {
+	.parallax h2 {
+		font-size: 38px;
+		line-height: 50px;
+	}
+}
+@media (max-width: 599px) {
+	.parallax h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.parallax p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+}

@@ -1,0 +1,224 @@
+<header>
+  <div class="container margin-b">
+    <div class="fleft">
+      <nav id="top-links" class="nav toggle-wrap">
+        <a class="toggle material-design-settings49" href="#"></a>
+        <ul class="toggle_cont">
+          <li class="first">
+            <%= link_to "Home", root_path %>
+          </li>
+          <li class="toggle-wrap">
+            <a href="index-2.html" title="My Account" class="toggle">
+              <span>My Account</span>
+            </a>
+            <ul class="toggle_cont toggle_cont__right">
+              <li>
+                <%= link_to "Register", "#" %>
+              </li>
+              <li>
+                <%= link_to "Login", "#" %>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="index-3.html" title="Shopping Cart">
+              <span>Shopping Cart</span>
+            </a>
+          </li>
+          <li>
+            <a href="index-4.html" title="Checkout">
+              <span>Checkout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+    <div style="" id="stuck" class="stuck-menu">
+      <div class="container">
+        <div class="fleft"><!--
+          <div class="search toggle-wrap">
+            <div class="toggle-search"><i class="fa fa-search"></i></div>
+
+           <div class="toggle_cont">
+              <div id="search">
+                <input name="search" placeholder="Search" type="text">
+                  <button type="button" class="button-search"></button>
+                <i class="closebtn"><i class="fa fa-close"></i>
+              </div>
+            </div>
+          </div>
+         -->
+        <form>
+          <input type="text" name="search" placeholder="Search"></i>
+        </form>
+        </div>
+        <div id="logo" class="logo">
+          <%= link_to image_tag("logo.png"), "root_path",style:"z-index:-1;" %>
+        </div>
+       <div class="fright">
+        <div class="box-cart">
+          <div id="cart" class="cart toggle-wrap">
+            <button type="button" data-loading-text="Loading..." class="toggle item-btn">
+              <i class="fa fa-shopping-cart"></i>
+              <span id="cart-total2" class="cart-total2">1</span></button>
+              <ul style="display: none;" class="pull-right toggle_cont">
+                <li>
+                  <div>
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="text-center">
+                            <div class="image"><a href="#"><img
+                              src="images/product-40-100x100.png" alt="Haute Joaillerie"
+                              title="Haute Joaillerie" class="img-thumbnail"></a></div>
+                            </td>
+                            <td class="text-left">
+                              <div class="name"><a href="#">Haute Joaillerie</a></div>
+                              <!--      --><!--     --><!---->
+                              <!--      - <small>--><!-- --><!--</small>-->
+                              <!--      --><!--     --><!--     -->
+                              <!--      <br />-->
+                              <!--      - <small>--><!-- --><!--</small>-->
+                              <!--      -->
+                              <div> x 1 <span class="price-cart">$110.00</span></div>
+                            </td>
+
+                            <td class="text-right"></td>
+                            <td class="text-center">
+                              <button type="button" onclick="cart.remove('222');" title="Remove"
+                              class="btn btn-danger btn-xs"><i class="fa fa-times"></i>
+                            </button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <table class="table total">
+                      <tbody>
+                        <tr>
+                          <td class="text-right"><strong>Sub-Total</strong></td>
+                          <td class="text-right">$110.00</td>
+                        </tr>
+                        <tr>
+                          <td class="text-right"><strong>Total</strong></td>
+                          <td class="text-right">$110.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="text-right">
+                      <a class="cart-remove-btn" href="#"><span> View Cart</span></a>
+                      <a class="cart-remove-btn" href="#"><span>Checkout</span></a>
+
+                      <p></p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="margin-t">
+      <div class="container">
+        <div id="menu-gadget" class="menu-gadget">
+          <ul class="menu">
+            <li>
+              <a href="index-5.html">Anklets</a>
+              <ul>
+                <li>
+                  <a href="#">Amulets</a>
+                </li>
+                <li>
+                  <a href="#">Love</a>
+                </li>
+                <li>
+                  <a href="#">Pendants</a>
+                </li>
+                <li>
+                  <a href="#">Rings</a>
+                </li>
+                <li>
+                  <a href="#">Wedding</a>
+                </li>
+
+              </ul>
+
+            </li>
+            <li>
+              <a href="#">Bracelets</a>
+
+            </li>
+            <li>
+              <a href="#">Brooches</a>
+
+            </li>
+            <li>
+              <a href="#">Earrings</a>
+
+            </li>
+            <li>
+              <a href="#">Necklaces</a>
+
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="bg-nav">
+        <div id="tm_menu" class="nav__primary">
+          <div class="container">
+            <ul class="menu sf-js-enabled sf-arrows">
+              <li class="">
+                <a class="sf-with-ul" href="index-5.html">Anklets</a>
+                <ul style="display: none;">
+                  <li style="opacity: 0;">
+                    <a href="#">Amulets</a>
+                  </li>
+                  <li style="opacity: 0;">
+                    <a href="#">Love</a>
+                  </li>
+                  <li style="opacity: 0;">
+                    <a href="#">Pendants</a>
+                  </li>
+                  <li style="opacity: 0;">
+                    <a href="#">Rings</a>
+                  </li>
+                  <li style="opacity: 0;">
+                    <a href="#">Wedding</a>
+                  </li>
+
+                </ul>
+
+              </li>
+              <li>
+                <a href="#">Bracelets</a>
+
+              </li>
+              <li>
+                <a href="#">Brooches</a>
+
+              </li>
+              <li>
+                <a href="#">Earrings</a>
+
+              </li>
+              <li>
+                <a href="#">Necklaces</a>
+
+              </li>
+
+            </ul>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
